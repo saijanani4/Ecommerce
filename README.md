@@ -109,7 +109,7 @@ The model prioritizes:
 
 ---
 ## Dashboard (Power BI)
-##Executive Overview
+## Executive Overview
 - Total Net Sales
 - Total Units Sold
 - Total Discount Given
@@ -118,20 +118,20 @@ The model prioritizes:
 - Category Performance
 - Promotion Performance
 ![executive_overview](images/executive_overview.png)
-##Product and Store Performance
+## Product and Store Performance
 - Top Performing Products
 - Revenue vs Units Comparison
 - Product Rating vs Revenue Scatter Analysis
 - Geographic Sales Distribution
 ![Product & Store Performance](images/product_&_store_performance.png)
-##Customer Analysis(Recency x Frequency x Monetary)
+## Customer Analysis(Recency x Frequency x Monetary)
 - RFM Score Distribution
 - Customer Segmentation Grid
 - Top Customer Table with Conditional Formatting
 ![Customer Analaysis](images/customer_analysis.png)
 
 ---
-##What This Project Demonstrates
+## What This Project Demonstrates
 - End-to-end data pipeline design
 - Analytical thinking beyond simple aggregation
 - Business KPI modeling
@@ -140,7 +140,7 @@ The model prioritizes:
 - Practical cloud data engineering & analytics integration
 
 ---
-##Future Improvements
+## Future Improvements
 - Automated BigQuery publishing workflow
 - Scheduled orchestration using Databricks Workflows
 - Advanced cohort analysis
