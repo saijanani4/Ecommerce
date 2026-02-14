@@ -46,7 +46,7 @@ end
     D --> E
 ```
 **Pipeline flow:**
-1. Create Schema dand upload the Raw CSV Files  (Raw).
+1. Create Schema and upload the Raw CSV Files  (Raw).
 2. Ingests data into **Bronze Schema** (streaming + checkpointing).
 3. **Silver** cleans and enriches data (dates, hour, weekday, high-value flag).
 4. **Gold** builds business KPIs (daily/hourly/category/top accounts/high-value table).
@@ -60,7 +60,7 @@ ecommerce/
 │   ├── Book 01 - Bronze Ingestion & Schema Validation
 │   ├── Book 02 - Silver Cleaning & Normalization
 │   ├── Book 03 - Gold Business KPIs , Aggregations
-│   └── Book 04 - BigQuery Intergration
+│   └── Book 04 - BigQuery Integration
 ├── Looker Studio/
 │   ├── Retail_Performance_&_Customer_Analytics_Dashboard_Built_on_Databricks_Gold_Layer.pdf
 ├── images/
@@ -108,7 +108,7 @@ The model prioritizes:
 - Clear business definitions
 
 ---
-## Dashboard (Power BI)
+## Dashboard (Looker Studio)
 ## Executive Overview
 - Total Net Sales
 - Total Units Sold
@@ -128,7 +128,7 @@ The model prioritizes:
 - RFM Score Distribution
 - Customer Segmentation Grid
 - Top Customer Table with Conditional Formatting
-![Customer Analaysis](images/customer_analysis.png)
+![Customer Analysis](images/customer_analysis.png)
 
 ---
 ## What This Project Demonstrates
