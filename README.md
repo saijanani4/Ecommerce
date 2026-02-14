@@ -1,4 +1,4 @@
-#Retail Performance & Customer Analytics Dashboard
+## Retail Performance & Customer Analytics Dashboard
 
 # Project Overview
 This project demonstrates the design and implementation of an end-to-end data analytics pipeline using the **Medallion Architecture (Bronze → Silver → Gold)** in Databricks, followed by the development of a KPI-driven business intelligence dashboard in **Looker Studio**.
