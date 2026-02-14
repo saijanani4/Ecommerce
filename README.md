@@ -131,6 +131,12 @@ The model prioritizes:
 ![Customer Analysis](images/customer_analysis.png)
 
 ---
+## How to run
+- Run order: Book 01 → Book 02 → Book 03
+- Output: Gold tables listed
+- Dashboard uses Gold tables
+  
+---
 ## What This Project Demonstrates
 - End-to-end data pipeline design
 - Analytical thinking beyond simple aggregation
